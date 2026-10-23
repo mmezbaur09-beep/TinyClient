@@ -1,0 +1,80 @@
+{
+  "textures": {
+    "particle": "minecraft:blocks/bed_pink",
+    "top": "minecraft:blocks/bed_pink",
+    "end": "minecraft:blocks/bed_pink",
+    "side": "minecraft:blocks/bed_pink",
+    "bottom": "minecraft:blocks/planks_oak"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        9,
+        16
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ],
+          "texture": "#top",
+          "rotation": 90
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#bottom"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            9
+          ],
+          "texture": "#side"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            9
+          ],
+          "texture": "#end"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            9,
+            16
+          ],
+          "texture": "#side"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            9,
+            16
+          ],
+          "texture": "#side"
+        }
+      }
+    }
+  ]
+}
